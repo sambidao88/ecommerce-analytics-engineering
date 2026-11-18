@@ -1,6 +1,6 @@
 # Ecommerce Analytics Engineering Portfolio
 
-An end-to-end analytics engineering portfolio project that transforms synthetic ecommerce data into tested dbt models and an [interactive, three-page BI dashboard](https://sambidao88.github.io/ecommerce-analytics-public-dashboard/).
+An end-to-end analytics engineering portfolio project that transforms synthetic ecommerce data into tested dbt models and an [interactive, three-page BI dashboard style](https://sambidao88.github.io/ecommerce-analytics-public-dashboard/).
 
 **The goal:** demonstrate how raw operational data can be transformed into reliable, well-defined business metrics that stakeholders can explore.
 
@@ -315,7 +315,7 @@ This project was built as a hands-on portfolio exercise in Analytics Engineering
 
 # Phiên bản tiếng Việt
 
-Dự án portfolio Analytics Engineering đầu-cuối, chuyển đổi dữ liệu thương mại điện tử giả lập thành các mô hình dbt có kiểm thử và [dashboard BI tương tác gồm ba trang](https://app.motherduck.com/dives/ecommerce-portfolio-bi-dashboard-41ff7e63-3d27-46ca-bcd8-0820ce72c72f?s=e3df0205).
+Dự án portfolio Analytics Engineering đầu-cuối, chuyển đổi dữ liệu thương mại điện tử giả lập thành các mô hình dbt có kiểm thử và [dashboard phong cách BI tương tác gồm ba trang](https://sambidao88.github.io/ecommerce-analytics-public-dashboard/).
 
 **Mục tiêu:** thể hiện cách chuyển dữ liệu vận hành thô thành các chỉ số kinh doanh đáng tin cậy, có định nghĩa rõ ràng và có thể được người dùng nghiệp vụ tự khám phá.
 
