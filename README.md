@@ -1,6 +1,6 @@
 # Ecommerce Analytics Engineering Portfolio
 
-An end-to-end analytics engineering portfolio project that transforms synthetic ecommerce data into tested dbt models and an [interactive, three-page BI dashboard](https://app.motherduck.com/dives/ecommerce-portfolio-bi-dashboard-41ff7e63-3d27-46ca-bcd8-0820ce72c72f?s=e3df0205).
+An end-to-end analytics engineering portfolio project that transforms synthetic ecommerce data into tested dbt models and an [interactive, three-page BI dashboard](https://sambidao88.github.io/ecommerce-analytics-public-dashboard/).
 
 **The goal:** demonstrate how raw operational data can be transformed into reliable, well-defined business metrics that stakeholders can explore.
 
