@@ -1,0 +1,11 @@
+﻿customer_id,first_name,last_name,customer_full_name,email,signup_date,city,country,marketing_opt_in,customer_segment
+CUS-001,An,Nguyen,An Nguyen,an.nguyen@example.com,2024-11-18,Ho Chi Minh City,VN,True,loyal
+CUS-002,Binh,Tran,Binh Tran,binh.tran@example.com,2024-12-02,Hanoi,VN,False,regular
+CUS-003,Chi,Le,Chi Le,chi.le@example.com,2025-01-10,Da Nang,VN,True,new
+CUS-004,Dung,Pham,Dung Pham,dung.pham@example.com,2025-01-22,Can Tho,VN,True,regular
+CUS-005,Hanh,Vo,Hanh Vo,hanh.vo@example.com,2025-02-05,Ho Chi Minh City,VN,False,new
+CUS-006,Khoa,Do,Khoa Do,khoa.do@example.com,2025-02-16,Hai Phong,VN,True,regular
+CUS-007,Linh,Bui,Linh Bui,linh.bui@example.com,2025-03-01,Hanoi,VN,True,loyal
+CUS-008,Minh,Ho,Minh Ho,minh.ho@example.com,2025-03-14,Nha Trang,VN,False,new
+CUS-009,Phuc,Dang,Phuc Dang,phuc.dang@example.com,2025-04-03,Da Nang,VN,True,regular
+CUS-010,Thao,Vu,Thao Vu,thao.vu@example.com,2025-04-19,Ho Chi Minh City,VN,False,new

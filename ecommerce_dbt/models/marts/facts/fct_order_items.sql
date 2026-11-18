@@ -1,0 +1,20 @@
+SELECT
+    order_item_id,
+    order_id,
+    CAST(STRFTIME(order_date, '%Y%m%d') AS INTEGER) AS order_date_key,
+    customer_id,
+    product_id,
+    store_id,
+    order_status,
+    sales_channel,
+    payment_method,
+    currency,
+    quantity,
+    unit_price,
+    item_discount,
+    unit_cost_at_sale,
+    gross_item_revenue,
+    net_item_revenue,
+    item_cost_amount,
+    gross_profit_before_order_discount
+FROM {{ ref('int_order_items_enriched') }}

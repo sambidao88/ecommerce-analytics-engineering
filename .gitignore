@@ -1,0 +1,21 @@
+# Local DuckDB databases
+*.duckdb
+*.duckdb.wal
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local credentials
+profiles.yml
+.env
+.env.*
+!.env.example
+Accestoken Motherduck.txt

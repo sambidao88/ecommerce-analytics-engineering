@@ -1,0 +1,80 @@
+version: 2
+
+seeds:
+  - name: customers
+    description: Synthetic customer records for the ecommerce learning project.
+    columns:
+      - name: customer_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: products
+    description: Synthetic product catalog. Prices and costs are in VND.
+    columns:
+      - name: product_id
+        data_tests:
+          - unique
+          - not_null
+
+  - name: stores
+    description: Synthetic online and retail sales channels in Vietnam.
+    columns:
+      - name: store_id
+        data_tests:
+          - unique
+          - not_null
+      - name: sales_channel
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['online', 'retail']
+
+  - name: orders
+    description: Synthetic order headers. Order-level discounts are separate from item discounts.
+    columns:
+      - name: order_id
+        data_tests:
+          - unique
+          - not_null
+      - name: customer_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('customers')
+                field: customer_id
+      - name: store_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('stores')
+                field: store_id
+      - name: order_status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ['placed', 'shipped', 'delivered', 'cancelled', 'returned']
+
+  - name: order_items
+    description: Synthetic order lines with sale-time unit cost for margin analysis.
+    columns:
+      - name: order_item_id
+        data_tests:
+          - unique
+          - not_null
+      - name: order_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('orders')
+                field: order_id
+      - name: product_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('products')
+                field: product_id

@@ -1,0 +1,27 @@
+version: 2
+
+models:
+  - name: int_order_items_enriched
+    description: >
+      Order-item grain enriched with order, product, and store attributes.
+      Revenue and profit include item discounts but exclude order-level discounts.
+    columns:
+      - name: order_item_id
+        data_tests:
+          - unique
+          - not_null
+      - name: order_id
+        data_tests:
+          - not_null
+      - name: order_date
+        data_tests:
+          - not_null
+      - name: product_id
+        data_tests:
+          - not_null
+      - name: gross_item_revenue
+        data_tests:
+          - not_null
+      - name: net_item_revenue
+        data_tests:
+          - not_null

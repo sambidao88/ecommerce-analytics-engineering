@@ -1,0 +1,9 @@
+product_id,product_name,category,subcategory,unit_cost,list_price,is_active
+PRD-001,Everyday Tote,Bags,Tote,180000,390000,true
+PRD-002,Canvas Backpack,Bags,Backpack,320000,650000,true
+PRD-003,Steel Water Bottle,Accessories,Drinkware,95000,220000,true
+PRD-004,Travel Mug,Accessories,Drinkware,110000,260000,true
+PRD-005,Classic T-Shirt,Apparel,Tops,125000,290000,true
+PRD-006,Lightweight Hoodie,Apparel,Outerwear,310000,690000,true
+PRD-007,Desk Organizer,Home,Storage,145000,320000,true
+PRD-008,Wireless Mouse,Electronics,Computer Accessories,240000,520000,false

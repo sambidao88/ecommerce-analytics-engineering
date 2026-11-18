@@ -1,0 +1,4 @@
+﻿store_id,store_name,city,country,sales_channel,opened_date
+ST-HAN,Hanoi Flagship,Hanoi,VN,retail,2024-02-10
+ST-HCM,Saigon Flagship,Ho Chi Minh City,VN,retail,2023-09-15
+WEB-VN,Online Store,Ho Chi Minh City,VN,online,2023-06-01

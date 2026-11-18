@@ -1,0 +1,252 @@
+Với dataset E-commerce hiện tại, mình sẽ thiết kế 4 pages. Ít hơn thì hơi nghèo nội dung, nhiều hơn thì bị loãng cho portfolio.
+
+Page 1: Executive Overview
+
+Mục tiêu:
+
+Nếu CEO mở dashboard trong 30 giây sẽ nhìn gì?
+
+Layout:
+
++----------+----------+----------+----------+
+| Revenue  | Orders   | AOV      |Customer  |
++----------+----------+----------+----------+
+
++------------------------------------------+
+|                                          |
+|              Revenue Trend               |
+|                                          |
++------------------------------------------+
+
++--------------------+---------------------+
+| Revenue by Store   | Revenue by Channel  |
++--------------------+---------------------+
+
++------------------------------------------+
+| Top 10 Products by Revenue               |
++------------------------------------------+
+
+
+Visuals:
+
+Card: Total Revenue
+Card: Total Orders
+Card: Total Customers
+Card: AOV
+Line Chart: Revenue Trend
+Clustered Bar: Revenue by Store
+Donut Chart: Revenue by Sales Channel
+Bar Chart: Top Product Revenue
+Page 2: Product Performance
+
+Mục tiêu:
+
+Sản phẩm nào đang mang tiền về?
+
+Layout:
+
++--------------+------------------+
+| Revenue KPI  | Quantity KPI     |
++--------------+------------------+
+
++---------------------------------------+
+| Revenue by Category                   |
++---------------------------------------+
+
++---------------------------------------+
+| Top 10 Products                       |
++---------------------------------------+
+
++---------------------------------------+
+| Product Detail Table                  |
++---------------------------------------+
+
+
+Visuals:
+
+Revenue by Category
+Category
+↓
+Revenue
+
+
+Bar chart.
+
+Top Products
+Product
+↓
+Revenue
+
+
+Bar chart.
+
+Product Matrix
+
+Columns:
+
+Product Name
+Category
+Revenue
+Quantity
+Gross Margin
+
+
+Dùng Matrix visual.
+
+Page 3: Customer Analytics
+
+Mục tiêu:
+
+Khách hàng nào giá trị nhất?
+
+Layout:
+
++----------------+----------------+
+| Customers KPI  | Avg Revenue    |
++----------------+----------------+
+
++---------------------------------------+
+| Revenue by Customer Segment           |
++---------------------------------------+
+
++---------------------------------------+
+| Top Customers                         |
++---------------------------------------+
+
++---------------------------------------+
+| Customer Detail Table                 |
++---------------------------------------+
+
+
+Visuals:
+
+Revenue by Segment
+
+Ví dụ:
+
+Enterprise
+Premium
+Standard
+
+
+Donut hoặc Bar.
+
+Top Customers
+Customer
+↓
+Revenue
+
+
+Bar chart.
+
+Customer Detail
+
+Matrix:
+
+Customer
+Revenue
+Orders
+AOV
+
+Page 4: Store Analytics
+
+Mục tiêu:
+
+Cửa hàng và kênh bán nào hiệu quả nhất?
+
+Layout:
+
++----------------+----------------+
+| Store KPI      | Channel KPI    |
++----------------+----------------+
+
++-----------------------------------+
+| Revenue by Store                  |
++-----------------------------------+
+
++-----------------------------------+
+| Revenue by City                   |
++-----------------------------------+
+
++-----------------------------------+
+| Revenue by Sales Channel          |
++-----------------------------------+
+
+
+Visuals:
+
+Revenue by Store
+Revenue by City
+Revenue by Channel
+Store Ranking
+Theme màu khuyên dùng
+
+Đừng dùng màu cầu vồng 😄
+
+Dùng:
+
+Primary   #2563EB (Blue)
+Success   #16A34A (Green)
+Warning   #F59E0B (Orange)
+Negative  #DC2626 (Red)
+
+
+Background:
+
+#F8FAFC
+
+
+Nhìn giống dashboard doanh nghiệp hơn.
+
+Chụp ảnh GitHub Portfolio
+
+README nên có:
+
+Architecture
+
+
+↓
+
+Ảnh Star Schema
+
+dim_customer
+      |
+      |
+fct_order_items
+      |
+      |
+dim_product
+
+dim_store
+dim_date
+
+
+↓
+
+Ảnh DAG dbt
+
+↓
+
+Ảnh Dashboard
+
+Page đẹp nhất để chụp là:
+
+Executive Overview
+
+
+Vì recruiter thường nhìn 10 giây đầu tiên vào page này.
+
+Với project hiện tại, mình sẽ chốt Version 1.0 ở mức:
+
+DuckDB
++
+dbt
++
+Star Schema
++
+Power BI Dashboard (4 pages)
++
+GitHub Portfolio
+
+
+Đây đã là một project Analytics Engineering Junior khá hoàn chỉnh để đưa vào CV rồi. 🚀
